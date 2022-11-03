@@ -126,7 +126,18 @@ footer {
     text-align: justify;
     margin: 10x 10px 10px 10px;
 
+
 }
+
+.texto-destacados:hover {
+    color: rgb(148, 13, 174);
+    transition: all 0.35s;
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+
+
 
 .face {
     margin: 5px 5px 5px 5px;
@@ -158,10 +169,3 @@ footer {
     place-content: center;
 }
 
-#cards {
-    display: flex;
-    justify-content: space-around;
-
-
-
-}
